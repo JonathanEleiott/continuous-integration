@@ -9,7 +9,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      - run: echo "Hello there"
+      - run: echo "Hello there!"
       - run: npm install
-      - run: npm install -g jest --save-dev
+      - run: npm install -g jest --save--dev
       - run: npm run test
